@@ -15,7 +15,7 @@ Sean's Kong Lab and Handbook
 
 ```sh
 git clone https://github.com/laughingbiscuit/kong-lab
-export KONG_LICENSE=$(cat license.json)
+export KONG_LICENSE="$(cat license.json)"
 sh ./kong-lab/scripts/kong-standalone-pg.sh
 docker ps
 ```
