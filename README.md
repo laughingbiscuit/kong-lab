@@ -1,5 +1,7 @@
 # Kong Lab
 
+[![Kong Lab Smoke Tests](https://github.com/laughingbiscuit/kong-lab/actions/workflows/kong-lab.yaml/badge.svg)](https://github.com/laughingbiscuit/kong-lab/actions/workflows/kong-lab.yaml) 
+
 Sean's Kong Lab and Handbook 
 
 ## Dependencies
