@@ -56,7 +56,7 @@ docker run -d --name kong-lab-ee --network=kong-lab-net \
   -p 8004:8004 \
   kong-ee
 
-sleep 2
+sleep 10
 
 ## add license
 curl -i -X POST http://localhost:8001/licenses \
