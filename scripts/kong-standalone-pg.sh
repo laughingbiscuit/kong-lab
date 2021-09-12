@@ -60,7 +60,7 @@ sleep 10
 
 ## add license
 curl -i -X POST http://localhost:8001/licenses \
-  -d payload="$(echo $KONG_LICENSE)"
+  -d payload="$KONG_LICENSE"
 
 sleep 2
 
