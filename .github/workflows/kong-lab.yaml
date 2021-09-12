@@ -1,0 +1,21 @@
+name: Kong Lab Smoke Tests
+on:
+  push:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+  - cron: "0 0 * * *"
+
+jobs:
+  install:
+    name: Install Standalone Kong
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Run install scripts
+        run: ./scripts/kong-standalone-pg.sh
+        with:
+          KONG_LICENSE: ${{ secrets.KONG_LICENSE }}
