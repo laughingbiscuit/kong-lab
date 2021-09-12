@@ -1,8 +1,8 @@
 # Kong Lab
 
-[![Kong Lab Smoke Tests](https://github.com/laughingbiscuit/kong-lab/actions/workflows/kong-lab.yaml/badge.svg)](https://github.com/laughingbiscuit/kong-lab/actions/workflows/kong-lab.yaml) 
+[![Kong Lab Smoke Tests](https://github.com/laughingbiscuit/kong-lab/actions/workflows/kong-lab.yaml/badge.svg)](https://github.com/laughingbiscuit/kong-lab/actions/workflows/kong-lab.yaml)
 
-Sean's Kong Lab and Handbook 
+Sean's Kong Lab and Handbook
 
 ## Dependencies
 
@@ -13,7 +13,7 @@ Sean's Kong Lab and Handbook
 
 ## Quickstart
 
-```
+```sh
 git clone https://github.com/laughingbiscuit/kong-lab
 export KONG_LICENSE=$(cat license.json)
 sh ./kong-lab/scripts/kong-standalone-pg.sh
