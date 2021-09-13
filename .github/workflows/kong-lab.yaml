@@ -20,6 +20,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Run install scripts
-        run: ./scripts/kong-standalone-pg.sh
+        run: run-all.sh
         env:
           KONG_LICENSE: ${{ secrets.KONG_LICENSE }}
