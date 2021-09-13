@@ -10,6 +10,7 @@ Sean's Kong Lab and Handbook
 - some POSIX compliant `sh`
 - `docker`
 - `git`
+- `deck`
 
 ## Quickstart
 
